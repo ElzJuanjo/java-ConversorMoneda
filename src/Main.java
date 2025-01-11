@@ -31,6 +31,7 @@ public class Main {
                     cantidad = Double.parseDouble(scanner.nextLine());
                 }
             } catch (NumberFormatException e) {
+                opcion = 0;
                 System.out.println("Debes ingresar un número.");
             }
 
